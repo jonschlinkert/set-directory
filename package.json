@@ -10,7 +10,9 @@
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "LICENSE",
+    "README.md"
   ],
   "main": "index.js",
   "engines": {
@@ -28,7 +30,10 @@
     "mkdirp": "^0.5.1",
     "mocha": "*"
   },
-  "keywords": [],
+  "keywords": [
+    "directory",
+    "set"
+  ],
   "verb": {
     "layout": "default",
     "plugins": [
