@@ -1,6 +1,6 @@
 {
   "name": "set-directory",
-  "description": "Create an object with path information based on the given directory.",
+  "description": "Utility for Update, Generate, assemble and verb for creating an object with commonly used path information based on the given directory.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/set-directory",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
@@ -19,18 +19,27 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fs-exists-sync": "^0.1.0"
+  },
   "devDependencies": {
+    "delete": "^0.3.2",
     "gulp-format-md": "*",
+    "mkdirp": "^0.5.1",
     "mocha": "*"
   },
   "keywords": [],
   "verb": {
     "layout": "default",
-    "plugins": ["gulp-format-md"],
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
       "list": []
     },
-    "reflinks": ["verb"]
+    "reflinks": [
+      "verb",
+      "verb-readme-generator"
+    ]
   }
 }
