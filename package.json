@@ -1,0 +1,36 @@
+{
+  "name": "set-directory",
+  "description": "Create an object with path information based on the given directory.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/set-directory",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/set-directory",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/set-directory/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-format-md": "*",
+    "mocha": "*"
+  },
+  "keywords": [],
+  "verb": {
+    "layout": "default",
+    "plugins": ["gulp-format-md"],
+    "related": {
+      "list": []
+    },
+    "reflinks": ["verb"]
+  }
+}
